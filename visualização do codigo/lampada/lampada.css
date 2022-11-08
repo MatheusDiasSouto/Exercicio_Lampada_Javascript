@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.area_lampada img{
+    width: 350px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.ligar{
+    background-color: yellow;
+    border:1px solid #888;
+    border-radius: 10px;
+    width: 80px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.desligar{
+    background-color: black;
+    color: white;
+    border:1px solid yellow;
+    border-radius: 10px;
+    width: 80px;
+    height: 25px;
+    cursor: pointer;
+}
+
